@@ -2,12 +2,13 @@
 import React from "react";
 import PrimaryButton from "./components/button";
 import Headshot from "./components/headshot";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
     <main className="">
-      <div className="p-4">Tanner McDaniel Portfolio</div>
-      <div className="flex justify-center">
+      <Navbar />
+      <div className="flex my-12 justify-center">
         <Headshot />
       </div>
       <div className="my-12 flex justify-center items-center">
